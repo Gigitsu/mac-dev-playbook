@@ -24,53 +24,90 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - asdf
   - autoconf
-  - bash-completion
-  - doxygen
+  - automake
+  - awscli
+  - cmake
+  - curl
+  - docker-completion
+  - fasd
+  - fzf
   - gettext
-  - gifsicle
   - git
-  - github/gh/gh
+  - git-flow
+  - gnupg
   - go
-  - gpg
   - httpie
+  - jq
   - iperf
-  - libevent
-  - sqlite
+  - lastpass-cli
+  - macvim
   - mcrypt
+  - mycli
+  - neofetch
   - nmap
-  - node
-  - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
+  - pgcli
+  - pipenv
+  - pkg-config
+  - protobuf
   - pv
-  - wget
-  - wrk
+  - python@3.8
+  - ranger
+  - ripgrep
+  - ruby
+  - sqlite
+  - ssh-copy-id
+  - telepresence
+  - terraform
+  - tmux
+  - twine-pypi
+  - unzip
+  - xz
+  - zsh
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - datawire/blackbird
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - alfred
+  - android-file-transfer
+  - brave-browser
+  - calibre
+  - cheatsheet
   - docker
-  - dropbox
+  - dozer
   - firefox
+  - folx
+  - gimp
+  - gitup
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-pro
+  - iterm2
+  - jetbrains-toolbox
+  - keka
+  - mactex
+  - postman
+  - sequel-ace
+  - skype
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
+  - spotify
+  - steam
+  - telegram-desktop
+  - visual-studio-code
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 937984704, name: "Amphetamine" }
+  - { id: 411643860, name: "DaisyDisk" }
+  - { id: 039633667, name: "Irvue" }
+  - { id: 585829637, name: "Todoist: To-do list and activities" }
+  - { id: 497799835, name: "Xcode" }
+
 mas_email: ""
 mas_password: ""
 
